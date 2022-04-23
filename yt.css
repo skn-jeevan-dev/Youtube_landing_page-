@@ -1,0 +1,605 @@
+body{
+    margin:0;
+}
+.container{
+    width:100%;
+    height: 900px;
+}
+.header{
+    width:100%;
+    height: 77.2px;
+    background-color:blue;
+    position:fixed;
+    
+}
+.menu{
+    height:100%;
+    width:5%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+
+}
+.line3-1{
+    width:28%;
+    height:2%;
+    background-color: whitesmoke;
+    margin-left:28px;
+    margin-top:30px;
+
+}
+.line3-2{
+    width:28%;
+    height:2%;
+    background-color: whitesmoke;
+    margin-left:28px;
+    margin-top:5px;
+
+}
+.logo{
+    height:100%;
+    width: 12%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+
+}
+#img{
+    width: 135px;
+    margin-top:9px;
+    margin-left: -10px;
+}
+.search{
+    height: 100%;
+    width:49.2%;
+    background-color:rgb(29, 28, 28);
+    float:left
+}
+#srchtyp{
+    width:600px;
+    height:43px;
+    padding-left: 5px;
+    margin-top:13px;
+    margin-left:130.65px;
+    font-size:large;
+    border:1px solid rgb(46, 41, 41);
+    background-color:black ;
+}
+.searchicon{
+    height:100%;
+    width:5%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+
+}
+#srchbut{
+    width:73px;
+    height:47.5px;
+    font-size: 22px;
+    color: rgb(202, 198, 198);
+    margin-top: 12.76px;
+    margin-left:-1px;
+    background-color: rgb(68, 67, 67);
+    border:1px solid rgb(46, 41, 41);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.mic{
+    height:100%;
+    width:5%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+
+}
+#micbut{
+    margin-top:13px;
+    margin-left:5px;
+    font-size: 20px;
+    color:rgb(202, 198, 198);
+    background-color: black;
+    width:45px;
+    height: 45px;
+    border-radius:100%;
+    border:none;
+    padding:12px;
+    cursor: pointer;
+
+}
+#micbut:active{
+    background-color:rgb(68, 67, 67)
+}
+.multimenu{
+    height:100%;
+    width: 9.5%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+}
+#menubox{
+    width: 80px;
+    height: 77px;
+    margin-left: 90px;
+    margin-top: -2px;
+    background-color: rgb(29, 28, 28);
+    border:none;
+   
+}
+#multimg{
+    width:25px;
+    height:25px;
+}
+.threedot{
+    height:100%;
+    width:5%;
+    background-color:rgb(29, 28, 28);
+    float:left;
+    cursor:pointer;
+}
+#dot3{
+    margin-top: 23px;
+    margin-left: 35px;
+    font-size:26px;
+    color:rgb(202, 198, 198)
+}
+.upsignin{
+    height:100%;
+    width:9.3%;
+    background-color: rgb(29, 28, 28);
+    float: left;
+}
+.usignbut{
+    margin-top:10px;
+    background-color: rgb(29, 28, 28);
+    border-color:#3ea6ff;
+    border-width: 2px;
+    width: 130px;
+    height: 55px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+#usign{
+    font-size: 18px;
+    color:#3ea6ff;;
+
+}
+#usigntext{
+    padding-left: 5px;
+    font-size: 18px;
+    color:#3ea6ff;
+    font-weight: bold;
+}
+.content{
+    width:100%;
+    height: 822.8px;
+    background-color:rgb(53, 216, 208);
+    
+}
+.left{
+    height: 109.5%;
+    width:17%;
+    background-color: rgb(37, 36, 36) ;
+    float: left;
+
+}
+.right{
+    margin-top: 77.2px;
+    height:100%;
+    width:83%;
+    background-color: black;
+    float:left;
+    
+}
+.rightop{
+    
+    height:7%;
+    width:100%;
+    background-color: black;
+
+}
+.rtbut{
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+    width:100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    background-color:rgb(68, 67, 67) ;
+    border: 3px solid rgb(100, 98, 98);
+    cursor: pointer;
+}
+.rtbut:focus{ 
+    background-color: white;
+    color: black;
+}
+
+
+.rightbot{
+    height:73%;
+    width:100%;
+    background-color: black;
+    float:left
+}
+
+.vt{
+    width:290px;
+    height:215px;
+    margin:10px;
+    margin-top: 10px;
+    float:left;  
+}
+
+.video{
+    width:290px;
+    height:225px;
+    margin:10px;
+    float:left;  
+}
+.home{
+    width: 100%;
+    height:50px;
+    margin-top: 77px;
+    background-color: rgb(29,28,28);
+    float: left;
+}
+#homeb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#homeb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#homeb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#home{
+    margin-top:10px;
+    margin-left: -120px;
+    color:white;
+    font-size: x-large;
+}
+#homet{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.explore{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#compassb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#compassb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#compassb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#compass{
+    margin-top:10px;
+    margin-left: -110px;
+    color:white;
+    font-size: x-large;
+}
+#compasst{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.shorts{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#videob{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#videob:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#videob:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#video{
+    margin-top:10px;
+    margin-left:-120px;
+    color:white;
+    font-size: x-large;
+}
+#videot{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.subscribe{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#vstackb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#vstackb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#vstackb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#vstack{
+    margin-top:10px;
+    margin-left:-60px;
+    color:white;
+    font-size: x-large;
+}
+#vstackt{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.br1{
+    width:100%;
+    height:1.5px;
+    float: left;
+    background-color: rgb(53, 51, 51);
+}
+.library{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#bookb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#bookb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#bookb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#book{
+    margin-top:10px;
+    margin-left:-145px;
+    color:white;
+    font-size: x-large;
+}
+#bookt{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.history{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#timerb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#timerb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#timerb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#timer{
+    margin-top:10px;
+    margin-left:-120px;
+    color:white;
+    font-size: x-large;
+}
+#timert{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.para{
+    width: 86%;
+    height:80px;
+    padding-left: 35px;
+    float: left;
+    color:white;
+    font-size: larger;
+    font-weight: lighter;
+    background-color: rgb(29, 28, 28);
+    margin-bottom: -15px;
+}
+.dsignin{
+    width: 86%;
+    height:70px;
+    padding-left: 35px;
+    background-color: rgb(29, 28, 28);
+    float: left;
+}
+
+.dsignbut{
+    margin-top:10px;
+    background-color: rgb(29, 28, 28);
+    border-color:#3ea6ff;
+    border-width: 2px;
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+#dsign{
+    font-size: 18px;
+    color:#3ea6ff;;
+
+}
+#dsigntext{
+    padding-left: 5px;
+    font-size: 18px;
+    color:#3ea6ff;
+    font-weight: bold;
+}
+.note{
+    width: 100%;
+    height:45px;
+    float: left;
+    background-color: rgb(29,28,28);
+
+}
+#notet{
+    padding-left:30px;
+    color:rgb(155, 144, 144);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.music{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#musicb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#musicb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#music{
+    margin-top:10px;
+    margin-left:-130px;
+    color:white;
+    font-size: x-large;
+}
+#musict{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.sports{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#trophyb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#trophyb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#trophyb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#trophy{
+    margin-top:10px;
+    margin-left:-120px;
+    color:white;
+    font-size: x-large;
+}
+#trophyt{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.movies{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+}
+#filmb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#filmb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#filmb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#film{
+    margin-top:10px;
+    margin-left:-120px;
+    color:white;
+    font-size: x-large;
+}
+#filmt{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.news{
+    width: 100%;
+    height:50px;
+    float: left;
+    background-color: rgb(29,28,28);
+
+}
+#newsb{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+#newsb:hover{
+    background-color:rgb(68, 67, 67) ;
+}
+#newsb:focus{
+    background-color:rgb(46, 45, 45) ;
+}
+#news{
+    margin-top:10px;
+    margin-left:-130px;
+    color:white;
+    font-size: x-large;
+}
+#newst{
+    margin-left: 15px;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
